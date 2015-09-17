@@ -7,5 +7,7 @@
 class_name: FunctionalTester
 modules:
     enabled:
+        - PhpBrowser:
+            url: 'http://coffee.jujumedia.co.uk'
         # add framework module here
         - \Helper\Functional

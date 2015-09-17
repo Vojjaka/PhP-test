@@ -10,8 +10,7 @@ settings:
     colors: false
     memory_limit: 1024M
 extensions:
-    enabled:
-        - Codeception\Extension\RunFailed
+    enabled: [Codeception\Extension\RunFailed]
 modules:
     config:
         Db:

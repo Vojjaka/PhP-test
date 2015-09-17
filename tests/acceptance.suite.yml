@@ -8,5 +8,9 @@ class_name: AcceptanceTester
 modules:
     enabled:
         - PhpBrowser:
-            url: https://bottlez.com
+            url: 'http://test.bottlez.jujumedia.co.uk'
+            # curl:
+                 # # CURLOPT_COOKIESESSION: false
+                 # CURLOPT_COOKIEJAR: "my_cookies.txt"
+                 # CURLOPT_COOKIEFILE: "my_cookies.txt"
         - \Helper\Acceptance
